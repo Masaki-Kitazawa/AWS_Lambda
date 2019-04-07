@@ -1,4 +1,4 @@
-"""Kick-wav2txt"""
+"""KickTranscribeWav2Txt"""
 """S3バケットにファイル生成されると起動する。起動条件はLambdaのS3トリガーにて指定"""
 
 from boto3 import client
